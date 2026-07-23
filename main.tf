@@ -4,10 +4,10 @@ region = "us-east-1"
 
 resource "aws_instance" "server1" {
 ami           = "ami-0c02fb55956c7d316"
-instance_type = "t2.micro"
+instance_type = "t2.micr"
 
 tags = {
-Name = "Server"
+Name = "Server-1"
 }
 }
 
